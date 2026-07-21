@@ -19,21 +19,7 @@ This project demonstrates how to build a real-time data processing pipeline usin
 
 ## Pipeline
 
-NewsAPI
-    ↓
-Python Producer
-    ↓
-Kafka
-    ↓
-Spark Structured Streaming
-    ↓
-spaCy Named Entity Recognition
-    ↓
-Logstash
-    ↓
-Elasticsearch
-    ↓
-Kibana Dashboard
+NewsAPI → Python Producer → Kafka → Spark Structured Streaming → spaCy Named Entity Recognition → Logstash → Elasticsearch → Kibana Dashboard
 
 ## Results
 
